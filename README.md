@@ -12,13 +12,13 @@
 `React` `JSX` `CSS3` `Bootstrap 5` `Node.js` `Express` `JavaScript` `MySQL` `GitHub` `Heroku`
 
 ## ☁ Heroku deploy
-🔗 
+🔗 [Phone Catalog](https://zzzzzz)  
 
-## :octocat: Repositorios  
+## :octocat: Repositories  
 🔗 [React - Front-End](https://github.com/acalvom/xxxx)  
 🔗 [Node.js - API - Back-End](https://github.com/acalvom/xxxx)  
 
-## 🏁 Project Set-up
+## 🏁 Project set-up
 
 ***Option A: Run in localhost***
 
