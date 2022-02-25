@@ -2,21 +2,36 @@
 > Code challenge proposed by DCSL GuideSmiths and 
 > made by Andrea Calvo Moreno
 >
->
 > This repository centralises the interface and the api of the "Phone Catalog" application. 
   It gathers the full project management based on a Kanban methodology in order to organise the workflow and Git branches .
   The specific documentation related to the app deployment and performance is defined in this repository.
 
+## ✏️📍  Fulfilled requirements
+ - A REST API providing phones’ information
+   - Implemented in NodeJS
+   - End-Points: 
+        * GET phones/
+   - Test End-Points with Mocha & Chai suite
+   - Persistence layer with MySQL databas
+ 
+ - A REACT APP allowing the user to browse the phones catalog
+   - Responsive design
+   - Home page displays the phone catalog
+   - Phones' information retrieved from the API
+   - Routing method implemented to navigate through the app
 
 ## 🔧 Used Technologies
-`React` `JSX` `CSS3` `Bootstrap 5` `Node.js` `Express` `JavaScript` `MySQL` `GitHub` `Heroku`
+`React` `JSX` `CSS3` `Bootstrap 5` `Node.js` `Express` `JavaScript` `MySQL` `Mocha-Chai` `GitHub` `Heroku`
+
+## 🔖 Plugins & External libraries
+`axios` `nodemon`
 
 ## ☁ Heroku deploy
 🔗 [Phone Catalog](https://zzzzzz)  
 
 ## :octocat: Repositories  
-🔗 [React - Front-End](https://github.com/acalvom/xxxx)  
-🔗 [Node.js - API - Back-End](https://github.com/acalvom/xxxx)  
+🔗 [React - Front-End](https://github.com/acalvom/phone-catalog-react)  
+🔗 [Node.js - API - Back-End](https://github.com/acalvom/phone-catalog-api)  
 
 ## 🏁 Project set-up
 
