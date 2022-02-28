@@ -2,9 +2,8 @@
 > Code challenge proposed by DCSL GuideSmiths  
 > Made by Andrea Calvo Moreno
 >
-> This repository centralises the interface and the api of the "Phone Catalog" application. 
-  It gathers the full project management based on a Kanban methodology in order to organise the workflow and Git branches .
-  The specific documentation related to the app deployment and performance is defined in this repository.
+> This repository centralises the interface and the API of the "Phone Catalog" application. 
+  It gathers the full project management based on Kanban methodology in order to organise the workflow and Git branches.
 
 ## 🎯 Fulfilled requirements
  - A REST API providing phones’ information
@@ -14,7 +13,9 @@
         * GET phone by ID
         * DELETE phone by ID
         * POST new phone  
-        (*End-Poins documentation available in README.md from API repository*)
+        * GET image by filename 
+        * DELETE image by filename 
+        (*[End-Points documentation available in README.md from API repository](https://github.com/acalvom/phone-catalog-api#end-points-documentation)*)
    - Unit & Integration End-Points tests with Mocha & Chai suite
    - Persistence layer with MySQL database
  
@@ -24,7 +25,6 @@
    - Phones' information retrieved from the API
    - Phone details are shown in a new page with a few more info about that phone
    - A spinner component while the REST API is fetching phone info
-   request is ongoing and the app is waiting for phones data
    - Routing implemented to navigate through the app
    - E2E test for the form and buttons with Cypress suite
    
@@ -74,6 +74,9 @@ and the type development:
 🔗 [React - Front-End](https://github.com/acalvom/phone-catalog-react)  
 🔗 [Node.js - API - Back-End](https://github.com/acalvom/phone-catalog-api)  
 
+## 🗺️  Project architecture
+![alt text](https://github.com/acalvom/phone-catalog-board/blob/master/project_architecture.png?raw=true)
+
 ## 🏁 Project set-up
 
 ***Option A: Run in localhost***
@@ -82,7 +85,7 @@ and the type development:
 🟡 Interface ➡ Front-End
 ```sh
 > cd <folder path>
-> git clone hhttps://github.com/acalvom/phone-catalog-react
+> git clone https://github.com/acalvom/phone-catalog-react
 > cd phone-catalog-react
 > phone-catalog-react > npm install
 ```
