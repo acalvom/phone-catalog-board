@@ -31,7 +31,7 @@
  - Full APP deploy in Heroku
  
 ### 👣 A little further on:  
- - To prove knowledge in agile methodologies, a Kanban project has been created in Github () . 
+ - To prove knowledge in agile methodologies, a [Kanban project](https://github.com/acalvom/phone-catalog-board/projects/1) has been created in Github  
  - With this, tickets associated with the requirements and app functionalities have been created and labelled based on the level of the requirement:
      - A: minimum
      - B: desirable
